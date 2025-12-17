@@ -12,7 +12,7 @@
  * [Reference](#reference)
 
 ## Introduce
-AntRunner-Pro is pro verion of [AntRunner Rotator](https://github.com/wuxx/AntRunner) made by Muse Lab. It can be used for real-time automatic racking of satellites with corresponding open source software which is available on Windows/Linux/Mac/RaspberryPi/Android. support 360-degree azimuth and 90-degree elevation control, waterproof, waterproof, powered by a 12V power supply. controlled via Ethernet with the open source Gpredict. It can install various types of antennas (usually Yagi antennas), and can support antennas up to 10KG. It's perfectly suited for fixed installation on a rooftop for radio communication operations. 
+AntRunner-Pro is pro verion of [AntRunner Rotator](https://github.com/wuxx/AntRunner) made by MuseLab. It can be used for real-time automatic racking of satellites with corresponding open source software which is available on Windows/Linux/Mac/RaspberryPi/. support 360-degree azimuth and 90-degree elevation control, waterproof, powered by 12V power supply. controlled via ethernet with the open source Gpredict. It can install various types of antennas (usually Yagi antennas), and can support antennas up to 10KG. It's perfectly suited for fixed installation on a rooftop for radio communication operations. 
 
 ![1](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/1.JPEG)
 ![2](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/2.JPEG)
