@@ -64,7 +64,7 @@ Create a new rotator device, select Edit -> Interfaces -> Rotators -> Add New, a
 
 ##### 4.4 Rotator test
 After configuring the rotator device, you can perform a preliminary test on the rotator. Click the inverted triangle on the upper right and select Antenna Control to enter the antenna control page.
-select the newly created pelcodtrk, click Engage to initialize the rotator, and then configure the azimuth and pitch angles. After configuring the rotator, it will respond immediately, however, please note that the rotator can only accept the next command after it has moved to the specified position, so the current angle cannot be queried during the movement.
+select the newly created pelcodtrk, click Engage to initialize the rotator, and then configure the azimuth and pitch angles. After configuring the rotator, it will respond immediately.
 ![Gpredict-2a](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/Gpredict-2a.png)
 ![Gpredict-2b](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/Gpredict-2b.png)
 ![Gpredict-2c](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/Gpredict-2c.png)
