@@ -36,7 +36,7 @@ AntRunner-Pro is pro verion of [AntRunner Rotator](https://github.com/wuxx/AntRu
 ### Windows
 
 #### 0 Antenna installation
-Prepare a circular tube with a diameter of 35cm, fix it on the support base, and then use a U-shaped buckle to fix the antenna on the circular tube. When fixing the antenna, make sure it is level with the ground
+Prepare a circular tube with a diameter of 3.5cm, fix it on the support base, and then use a U-shaped buckle to fix the antenna on the circular tube. When fixing the antenna, make sure it is level with the ground
 
 #### 1 Rotator adjustment
 Return the rotator to its default horizontal state and face it towards the north, This step can be adjusted through the mobile compass APP.
@@ -101,6 +101,7 @@ Look4Sat's control of the rotator is sent over the network, for example "\set_po
 SDR# is a popular SDR control application. It is simple and convenient to use. It supports a variety of common SDR devices, supports a variety of plug-in functions, and can be linked with Gpredict. At the same time, Gpredict can also support wireless devices and rotators. : Use SDR equipment such as RTL-SDR, and use Gpredict to track satellites at the same time, gpredict can send Doppler frequency to SDR# through the corresponding plug-in in SDR# for real-time adjustment, and Gpredict can control the rotator in real time for tracking. Other plug-ins in SDR# can analyze and record the received signal waveform to realize the linkage of the whole system.
 
 ### How to Get One
+Please email me(johnnywu0924@gmail.com) if you want to get one, or get it from my store here.
 [Tindie-Store-AntRunner-Pro](https://www.tindie.com/products/johnnywu/antrunner-pro-rotator)   
 [Aliexpress-Store-AntRunner-Pro](https://www.aliexpress.com/item/1005010622978114.html)  
 
