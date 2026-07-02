@@ -75,7 +75,7 @@ Select the satellite to be tracked in Target, such as ISS, click Track, the rota
 ![Gpredict-2e](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/Gpredict-2e.png)
 ![Gpredict-2f](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/Gpredict-2f.png)
 
-### Linux/Raspberry
+### Linux/Raspberry Pi
 Since Gpredict is also supported under Linux, it can be directly run and used in the Linux/Raspberry Pi. The operation steps are basically the same, and will not be repeated here.
 
 ### Android
@@ -91,7 +91,6 @@ Since it is an open source project based on GPL, Gpredict is still developing un
 
 ### Hamlib 
 Hamlib (https://hamlib.github.io/) is a control library for radios and rotators based on the LGPL open source protocol, supporting Windows/Linux. Gpredict mentioned above can control various types of radio equipment and rotators. The above are all controlled by Hamlib. It can be understood that Hamlib is the middle layer between Gpredict and the actual hardware. Hamlib provides a unified control interface to Gpredict, and itself realizes the operation of complex hardware devices. In actual operation, Hamlib runs in the background as a separate task, which receives requests and sends responses through TCP port 4533. For example: Gpredict sends "p 30 60" through TCP port 4533, which means to adjust the current rotator azimuth to 30 degrees, the pitch angle is adjusted to 60 degrees, and the actual hardware operation is performed by Hamlib. Gpredict does not need to care what type of rotator is used, just specify the model of the rotator when Hamlib starts.
-Note: AntRunner-Pro's driver is implemented in Hamlib, and has been incorporated into the official Hamlib repository (https://github.com/Hamlib/Hamlib), merge node: https://github.com/Hamlib/Hamlib/pull/1032. Just take the latest version of Hamlib or any release [version 4.5](https://github.com/Hamlib/Hamlib/releases/tag/4.5) or later.
 
 ### Look4Sat
 Look4Sat (https://github.com/rt-bishop/Look4Sat) is an Android-based open source satellite tracking software implemented by Arty Bishop. The page is concise and easy to use. The latest submission also supports the control of the rotator. The real-time display of the gyroscope is supported during the tracking process, which can easily align the satellite. At present, other similar satellite prediction software does not support this simple use method, and it is widely used in the current HAM.
