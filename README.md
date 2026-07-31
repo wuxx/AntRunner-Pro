@@ -75,6 +75,16 @@ Select the satellite to be tracked in Target, such as ISS, click Track, the rota
 ![Gpredict-2e](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/Gpredict-2e.png)
 ![Gpredict-2f](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/Gpredict-2f.png)
 
+##### 4.6 how to config static ip
+Some guys may want to connect to their computer directly with a static IP address. Here are the instructions
+Enter the IP address of the rotator in the file browser
+![static-ip-config-1](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/static-ip-config-1.png)
+Open rotator.cfg with a text editor, uncomment the static IP configuration, and change the IP address to the one you need.
+![static-ip-config-2](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/static-ip-config-2.png)
+![static-ip-config-3](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/static-ip-config-3.png)
+
+
+
 ### Linux/Raspberry Pi
 Since Gpredict is also supported under Linux, it can be directly run and used in the Linux/Raspberry Pi. The operation steps are basically the same, and will not be repeated here.
 
