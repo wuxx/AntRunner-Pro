@@ -77,9 +77,9 @@ Select the satellite to be tracked in Target, such as ISS, click Track, the rota
 
 ##### 4.6 how to config static ip
 Some guys may want to connect to their computer directly with a static IP address. Here are the instructions
-Enter the IP address of the rotator in the file browser
+Enter the IP address of the rotator in the file browser  
 ![static-ip-config-1](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/static-ip-config-1.png)
-Open rotator.cfg with a text editor, uncomment the static IP configuration, and change the IP address to the one you need.
+Open rotator.cfg with a text editor, uncomment the static IP configuration, and change the IP address to the one you need  
 ![static-ip-config-2](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/static-ip-config-2.png)
 ![static-ip-config-3](https://github.com/wuxx/AntRunner-Pro/blob/main/doc/static-ip-config-3.png)
 
